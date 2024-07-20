@@ -18,14 +18,14 @@ const GetApp = () => {
               type="button"
               title="App Store"
               icon="/apple.svg"
-              variant="btn_white"
+              variant="btn_white hover:bg-green-700  hover:text-white"
               full
             /> 
             <Button
               type="button"
               title="Play Store"
               icon="/android.svg"
-              variant="btn_dark_green_outline"
+              variant="btn_dark_green_outline hover:bg-gray-30" 
               full
             />
           </div>

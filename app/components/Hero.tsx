@@ -3,7 +3,7 @@ import React from "react";
 import Button from "./Button";
 
 const Hero = () => {
-  'use client'
+  "use client";
   return (
     <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:gap-20 xl:flex-row ">
       <div className="hero-map" />
@@ -48,7 +48,11 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-col w-full gap-3 sm:flex-row">
-          <Button type="button" title="Download App" variant="btn_green hover:bg-green-400 hover:border-none" />
+          <Button
+            type="button"
+            title="Download App"
+            variant="btn_green hover:bg-green-400 hover:border-green-400"
+          />
           <Button
             type="button"
             title="How we work"
@@ -64,7 +68,13 @@ const Hero = () => {
           <div className="flex flex-col">
             <div className="flexBetween">
               <p className="regualr-16 text-gray-20">Location</p>
-              <Image className="cursor-pointer" src="/close.svg" alt="close" width={24} height={24} />
+              <Image
+                className="cursor-pointer"
+                src="/close.svg"
+                alt="close"
+                width={24}
+                height={24}
+              />
             </div>
             <p className="bold-20 text-white">Aguas Calientes</p>
           </div>
